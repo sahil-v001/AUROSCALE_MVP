@@ -1,0 +1,103 @@
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules/
+/node_modules
+/.pnp
+.pnp.js
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# ==========================================
+# Next.js & Build Outputs
+# ==========================================
+.next/
+/.next/
+out/
+/out/
+build/
+/build/
+dist/
+/dist/
+
+# ==========================================
+# Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.*
+*.pem
+*.key
+*.cert
+*.crt
+
+# ==========================================
+# Vercel & Turbopack
+# ==========================================
+.vercel
+.turbo/
+
+# ==========================================
+# Testing & Coverage
+# ==========================================
+coverage/
+/coverage
+*.lcov
+.nyc_output/
+
+# ==========================================
+# Logs & Runtime Diagnostics
+# ==========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# IDEs & Code Editors
+# ==========================================
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# ==========================================
+# Caches & Temporary Files
+# ==========================================
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+.prettiercache
+.cache/
+tmp/
+temp/
