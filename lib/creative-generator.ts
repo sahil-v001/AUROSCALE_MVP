@@ -1,0 +1,133 @@
+import { CreativeCard, Industry } from './types';
+
+export function generateCreativeCards(brandName: string, industry: Industry): CreativeCard[] {
+  if (industry === 'saas') {
+    return [
+      {
+        id: 'meta-1',
+        platform: 'meta',
+        format: 'Instagram Story (9:16 Video Brief)',
+        angle: 'Workflow Bottleneck / "The Old Way is Breaking"',
+        headline: `Stop Burning 4 Hours Every Day on Repetitive Ops`,
+        hook: `"Your competitors aren't hiring more managers—they switched to autonomous agents."`,
+        primaryText: `Most SaaS workflows break because humans are stuck copy-pasting data between tabs. ${brandName} automates high-friction workflows end-to-end with 99.4% accuracy. Try our 15-second sandbox now.`,
+        visualPrompt: `Split-screen visual: Left side shows chaotic desktop with 24 open tabs and red error banners. Right side shows clean dark mode Auroscale dashboard with green automation pulse. Text overlay: 'Why manual workflows are costing you 3x CAC.'`,
+        callToAction: 'Launch Sandbox',
+        viralityScore: 89,
+        predictedRoas: 3.8,
+      },
+      {
+        id: 'linkedin-1',
+        platform: 'linkedin',
+        format: 'Sponsored Content (1:1 Carousel Card)',
+        angle: 'Executive POV / Assembly-Line Efficiency',
+        headline: `Why Assembly Line Principles Beat Point-SaaS Tools in 2026`,
+        hook: `"If an assembly line stopped every 5 minutes for human confirmation, the factory would go bankrupt. Why do we tolerate it in software?"`,
+        primaryText: `Enterprise leaders at fast-scaling companies are consolidating their fragmented tech stacks. ${brandName} brings human-in-the-loop agentic orchestration across your existing CRM, Slack, and cloud databases. No six-week integration sprint required.`,
+        visualPrompt: 'High-contrast minimalist blueprint diagram showing 5 specialized AI agents communicating around one central intelligence brain. Subtle purple neon glow accents on dark zinc #09090B background.',
+        callToAction: 'Read Whitepaper',
+        viralityScore: 92,
+        predictedRoas: 4.2,
+      },
+      {
+        id: 'google-1',
+        platform: 'google',
+        format: 'High-Intent Responsive Search Ad',
+        angle: 'Solution Replacement / Immediate ROI',
+        headline: `${brandName} — AI Agent Orchestration | Live in 48 Hours`,
+        hook: `Cut Operational Bottlenecks by 68% | Trusted by High-Growth Teams`,
+        primaryText: `Deploy autonomous AI agents that plan, execute, and sync directly with your CRM and Slack. Zero API glue code. Book your live proof-of-concept audit today.`,
+        visualPrompt: `Google Search snippet badge with 4.8★ star rating extension and 'No Credit Card Required' sitelink.`,
+        callToAction: 'Explore Platform',
+        viralityScore: 86,
+        predictedRoas: 3.5,
+      },
+    ];
+  }
+
+  if (industry === 'd2c') {
+    return [
+      {
+        id: 'meta-1',
+        platform: 'meta',
+        format: 'Instagram Reel / Story (9:16)',
+        angle: 'Urgency & Unboxing Dopamine',
+        headline: `The Upgrade Modern Shoppers Have Been Quietly Switching To`,
+        hook: `"I used to think all alternatives were the same—until I tested ${brandName}."`,
+        primaryText: `Engineered for performance and zero compromise. Over 45,000 orders shipped with 4.8★ average review. Claim an instant 20% discount on your first order + free priority delivery.`,
+        visualPrompt: `Ultra-crisp macro product showcase under dramatic soft lighting. Smooth 60fps rotational transition revealing premium craftsmanship and texture detail.`,
+        callToAction: 'Shop Now',
+        viralityScore: 94,
+        predictedRoas: 4.6,
+      },
+      {
+        id: 'linkedin-1',
+        platform: 'linkedin',
+        format: 'Brand Authority Post (1:1)',
+        angle: 'Category Creation & Supply Chain Excellence',
+        headline: `How ${brandName} Reached 7-Figure Run Rate Without Agency Retainers`,
+        hook: `"Traditional agency retainers charge ₹2,00,000/month for slow ad tests. Here is how we run creative tests on autopilot."`,
+        primaryText: `Building a profitable consumer brand requires capital efficiency. By uniting cross-channel audience data and automated creative scoring, ${brandName} dropped customer acquisition costs by 37%.`,
+        visualPrompt: 'Minimalist metrics chart showing customer acquisition cost falling while monthly ROAS curves upward. Clean dark aesthetic with emerald #10B981 indicators.',
+        callToAction: 'View Case Study',
+        viralityScore: 84,
+        predictedRoas: 3.2,
+      },
+      {
+        id: 'google-1',
+        platform: 'google',
+        format: 'Google Search High-Intent Ad',
+        angle: 'Direct Brand & Category Capture',
+        headline: `Official ${brandName} Store | Exclusive Direct Pricing`,
+        hook: `Rated #1 in 2026 | Free 48-Hour Express Shipping Across India`,
+        primaryText: `Order directly from the source for genuine quality assurance, easy 7-day returns, and cash on delivery available. Experience the ${brandName} standard.`,
+        visualPrompt: `Google Ads Search SERP mockup with sitelinks: 'Best Sellers', 'Customer Reviews', 'Special Bundles'.`,
+        callToAction: 'Order Today',
+        viralityScore: 88,
+        predictedRoas: 3.9,
+      },
+    ];
+  }
+
+  return [
+    {
+      id: 'meta-1',
+      platform: 'meta',
+      format: 'Meta Instagram Feed & Story',
+      angle: 'Pattern Interrupt / Retainer Waste',
+      headline: `Are You Paying Agency Retainers for What Agents Do in 3 Minutes?`,
+      hook: `"Marketers waste ₹1,50,000/month bidding on the exact same customer across Meta and Google."`,
+      primaryText: `Point tools leave your campaigns fragmented. ${brandName} brings cross-channel audience intelligence, auto-creative refreshes, and instant WhatsApp follow-ups under one shared brain.`,
+      visualPrompt: `Futuristic command console showing live real-time bid reallocation between Instagram and Google Search. Subtle neon borders with glassmorphic glow.`,
+      callToAction: 'Run Free Audit',
+      viralityScore: 91,
+      predictedRoas: 4.1,
+    },
+    {
+      id: 'linkedin-1',
+      platform: 'linkedin',
+      format: 'LinkedIn B2B Feed Banner',
+      angle: 'Capital Efficiency for Modern Marketers',
+      headline: `Stop Treating Your Ad Budget Like Spend. Treat It Like Capital.`,
+      hook: `"When your creative studio and audience data share the same brain, customer acquisition drops 37%."`,
+      primaryText: `Explore how high-velocity growth teams use autonomous AI agents to run marketing campaigns end-to-end. Scale your output without scaling headcount first.`,
+      visualPrompt: `Dark aesthetic infographic contrasting 'Manual Human Retainer Agency' vs 'Auroscale Autonomous Agent Dept'.`,
+      callToAction: 'Explore Blueprint',
+      viralityScore: 87,
+      predictedRoas: 3.7,
+    },
+    {
+      id: 'google-1',
+      platform: 'google',
+      format: 'Google Search Performance Max Headline',
+      angle: 'Commercial Intent & Trust',
+      headline: `${brandName} — Modern Growth & Creative Automation`,
+      hook: `Cut Duplicate Bidding Waste | Automated Marketing Intelligence`,
+      primaryText: `Unify Google & Meta audiences, automate high-converting creatives, and optimize marginal ROAS on autopilot. Get your customized teardown in 15 seconds.`,
+      visualPrompt: `Search ad card with 'WhatsApp Concierge Available' callout extension.`,
+      callToAction: 'Get Started',
+      viralityScore: 85,
+      predictedRoas: 3.4,
+    },
+  ];
+}
