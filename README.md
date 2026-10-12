@@ -83,4 +83,4 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 Built with admiration for Kartikeya's thesis on **Human-Robot Collaboration** and eliminating repetitive business bottlenecks.
 
 - **Candidate:** Sahil Verma
-- **Role Targeted:** GTM Engineer
+- **Role Targeted:** GTM Engineer Intern | Full-Stack Engineering Intern
